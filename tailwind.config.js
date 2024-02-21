@@ -6,7 +6,11 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            maxWidth: {
+                "16": "16rem",
+            },
+        },
     },
     plugins: [require("@tailwindcss/forms")],
 };

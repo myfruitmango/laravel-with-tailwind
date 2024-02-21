@@ -172,6 +172,95 @@
             <div class="bg-teal-900 h-24 -mx-8 mt-12 xl:mt-0 xl:h-48 xl:absolute w-screen -bottom-8 -z-10">
             </div>
         </section>
+        <section aria-labelledby="contact" class="container mx-auto px-8 overflow-hidden">
+            <div class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
+                <div class="md:flex-1 md:max-w-sm relative">
+                    <img src="{{ url('assets/img/lamp.png') }}" class="mx-auto" alt="lamp" />
+                    <a href="#"
+                        class="py-2 px-6 bg-amber-400 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-offset-neutral-800 dark:ring-amber-400 mx-auto mt-12 md:mb-12 w-max flex gap-2 shadow-xl hover:shadow-none hover:to-neutral-600 transition-shadow dark:text-neutral-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg>
+                        <span>Download The App</span>
+                    </a>
+                    <img src="{{ url('assets/img/app.svg') }}" width="240"
+                        class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs"
+                        alt="app" />
+                </div>
+                <form
+                    class="relative border-8 border-neutral-900 p-6 rounded-lg grid gap-8 md:flex-1 md:max-w-lg my-5 md:my-12 lg:my-16 bg-white dark:bg-neutral-800 w-full">
+                    <h2 id="contact" class="text-3xl font-bold">Let’s Connect</h2>
+                    <div class="relative">
+                        <input type="text" id="name"
+                            class="peer form-input w-full border-4 border-amber-400 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:border-amber-400 focus:ring-amber-400 dark:bg-amber-400 dark:text-neutral-900 placeholder-transparent"
+                            placeholder="Your Name" />
+                        <label for="name"
+                            class="text-neutral-500 text-sm font-bold uppercase absolute -top-4 left-2 -translate-y-1/2 transition-all peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300 peer-focus:-top-4 peer-focus:left-2">
+                            Your Name
+                        </label>
+                    </div>
+                    <div class="relative">
+                        <input type="text" id="email"
+                            class="peer form-input w-full border-4 border-amber-400 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:border-amber-400 focus:ring-amber-400 dark:bg-amber-400 dark:text-neutral-900 placeholder-transparent"
+                            placeholder="Your Email" />
+                        <label for="email"
+                            class="text-neutral-500 text-sm font-bold uppercase absolute -top-4 left-2 -translate-y-1/2 transition-all peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300 peer-focus:-top-4 peer-focus:left-2">
+                            Your Email
+                        </label>
+                    </div>
+                    <div class="relative">
+                        <textarea name="content" id="content" cols="20" rows="5"
+                            class="peer form-textarea resize-none w-full border-4 border-amber-400 rounded-md focus:ring-4 dark:focus:ring-offset-2 focus:ring-amber-400 focus:border-amber-400 focus:outline-none dark:bg-amber-400 dark:text-neutral-900 placeholder-transparent
+                        "
+                            placeholder="How can we help?"></textarea>
+                        <label for="content"
+                            class="
+                            text-neutral-500
+                            text-sm
+                            font-bold
+                            uppercase
+                            absolute
+                            -top-3
+                            left-2
+                            -translate-y-1/2
+                            transition-all
+                            peer-placeholder-shown:left-4
+                            peer-placeholder-shown:top-6
+                            peer-placeholder-shown:text-neutral-900
+                            peer-focus:-top-4
+                            peer-focus:left-2
+                            peer-focus:text-neutral-600
+                            dark:peer-focus:text-neutral-300
+                          ">
+                            How can we help?
+                        </label>
+                    </div>
+                    <a role="menuitem"
+                        class="
+                          py-2
+                          px-6
+                          bg-neutral-900
+                          text-white
+                          w-max
+                          shadow-xl
+                          hover:shadow-none
+                          transition-shadow
+                          focus:outline-none
+                          focus-visible:ring-4
+                          ring-neutral-900
+                          rounded-md
+                          ring-offset-4
+                          ring-offset-white
+                          dark:ring-offset-amber-400
+                        "
+                        href="/">
+                        Sign Up
+                    </a>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 
