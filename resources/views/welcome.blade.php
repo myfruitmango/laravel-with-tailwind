@@ -115,6 +115,39 @@
                 </div>
             </div>
         </section>
+        <section aria-labelledby="partners" class="text-center grid gap-8 place-items-center">
+            <div class="grid gap-4">
+                <h2 id="partners" class="text-4xl font-bold text-amber-400">Our Partners</h2>
+                <p class="w-full max-w-lg">
+                    We’ve partnered with hundreds of smart home brands to help you create a smart home that fits your
+                    needs and doesn’t lock
+                    you in.
+                </p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 md:gap-x-16 max-w-2xl mx-auto">
+                <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                    <img src="{{ url('assets/img/partner1.svg') }}" alt="Partner" class="h-16 w-16">
+                </div>
+                <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                    <img src="{{ url('assets/img/partner2.svg') }}" alt="Partner" class="h-16 w-16">
+                </div>
+                <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                    <img src="{{ url('assets/img/partner3.svg') }}" alt="Partner" class="h-16 w-16">
+                </div>
+                <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                    <img src="{{ url('assets/img/partner4.svg') }}" alt="Partner" class="h-16 w-16">
+                </div>
+                <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                    <img src="{{ url('assets/img/partner5.svg') }}" alt="Partner" class="h-16 w-16">
+                </div>
+                <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                    <img src="{{ url('assets/img/partner6.svg') }}" alt="Partner" class="h-16 w-16">
+                </div>
+                <div class="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
+                    <img src="{{ url('assets/img/partner7.svg') }}" alt="Partner" class="h-16 w-16">
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
