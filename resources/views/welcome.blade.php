@@ -28,7 +28,7 @@
                 </svg>
             </button>
             <div role="menubar"
-                class="hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full">
+                class="hidden z-40 flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full">
                 <a role="menuitem"
                     class="py-1 px-6 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 text-neutral-900 hover:to-neutral-600 transition-colors dark:text-neutral-900 lg:mr-auto"
                     href={{ url('/') }}>
@@ -63,6 +63,17 @@
                 class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64 lg:w-72"alt="app" />
         </div>
     </header>
+    <main class="grid gap-12 sm:gap-16 md:gap-24 lg:gap-32 px-8 overflow-hidden">
+        <a href="#"
+            class="py-2 px-6 bg-amber-400 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-offset-neutral-800 dark:ring-amber-400 mx-auto my-12 flex gap-2 shadow-xl hover:shadow-none hover:to-neutral-600 transition-shadow dark:text-neutral-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            <span>Download The App</span>
+        </a>
+    </main>
 </body>
 
 </html>
